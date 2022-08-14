@@ -9,3 +9,19 @@ h1
 {
     text-align:  center;
 }
+
+/* Extra class for calling adding into element */
+.ExtraClassForExperiment
+{
+    background-color: greenyellow !important;
+}
+
+.large-text
+{
+    font-size: 100px;
+}
+
+.small-size
+{
+    font-size: 70px;
+}

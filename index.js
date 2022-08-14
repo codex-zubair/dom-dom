@@ -99,10 +99,39 @@ domChange[1].innerHTML = "Hello I'm Working"
 domChange[3].innerHTML = "Hello I'm Working"
 
 
+// giving box size and border to div using querySelectorAll
+
+const div = document.querySelectorAll('div')
+
+for(d of div)
+{
+    
+    d.style.border = '2px solid'
+    d.style.margin = "15px"
+    d.style.borderRadius = "5px"
+    d.style.backgroundColor= 'lightGray'
+}
 
 
 
-y 
+//Remove css class and Adding Extra CSS class into tag style...
+const divId = document.getElementById("extraId");
+divId.classList.add('ExtraClassForExperiment')
+
+
+
+// Adding class
+const heading = document.getElementById('heading')
+heading.classList.add('small-text')
+
+
+// Removing class. and add large one
+heading.classList.remove('small-text')
+heading.classList.add('large-text')
+
+
+
+
 
 
 
