@@ -15,8 +15,7 @@ console.log(document.body);
 // And changing the properties
 const h1tags = document.getElementsByTagName('h1');
 
-for(h1 of h1tags)
-{
+for (h1 of h1tags) {
     console.log(h1.innerTe);
 
     h1.style.color = 'red'
@@ -42,8 +41,7 @@ document.getElementById('middle-h1').innerText = 'Me Not Only DOM'
 // Changing Class wise... Class can work as a array.
 const h1ClassChecking = document.getElementsByClassName('apple');
 
-for (h1 of h1ClassChecking)
-{
+for (h1 of h1ClassChecking) {
     console.log(h1.innerText);
     h1.style.color = 'blue'
 
@@ -51,8 +49,8 @@ for (h1 of h1ClassChecking)
 
     // Changing CSS properties.
     h1.style.textAlign = 'center'
-    h1.style.fontSize ='50px'
-    
+    h1.style.fontSize = '50px'
+
 }
 
 
@@ -66,21 +64,45 @@ console.log(tag)
 // Query Selector Benefits are access in css as like css sheet.
 const queryUse = document.querySelectorAll('.qua');
 
-for (q of queryUse)
-{
-    q.innerText ="Query Selector Working"
-    q.style.textAlign= 'center'
-    q.style.backgroundColor='red'
+for (q of queryUse) {
+    q.innerText = "Query Selector Working"
+    q.style.textAlign = 'center'
+    q.style.backgroundColor = 'red'
+
 }
 
 
 
 
+// Adding Class list inside html Tag
+console.log(h1.classList.add('book'));
+
+
+// Getting tag attribute styles class id and many more for the element.
+console.log(h1.getAttribute('class'));
+
+
+// Removing class from h1...
+console.log(h1.classList.remove('apple'))
+console.log(h1.getAttribute('class'));
+
+// Set an attributes...
+console.log(h1.setAttribute('title', 'this is attribute Example'))
+console.log(h1.getAttribute('title'));
+
+
+
+
+// Modifying HTML Elements by class name.
+const domChange = document.getElementsByClassName('apple')
+domChange[1].innerHTML = "Hello I'm Working"
+domChange[3].innerHTML = "Hello I'm Working"
 
 
 
 
 
+y 
 
 
 
