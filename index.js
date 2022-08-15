@@ -6,7 +6,7 @@ book.style.color = "green";
 
 
 // Checking body section.
-const main = document.body;
+
 
 console.log(document.body);
 
@@ -128,12 +128,6 @@ heading.classList.add('small-text')
 // Removing class. and add large one
 heading.classList.remove('small-text')
 heading.classList.add('large-text')
-
-
-
-
-
-
 
 
 
